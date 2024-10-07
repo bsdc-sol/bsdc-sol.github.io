@@ -1,3 +1,6 @@
-.mainheader{
+h1{
     text-align: right;
+    padding-right: 30px;
+    padding-top: 300px;
+    font-size: 300px;
 }
