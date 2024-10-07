@@ -4,3 +4,9 @@ h1{
     padding-top: 300px;
     font-size: 300px;
 }
+h2{
+    text-align:right;
+    padding-right: 30px;
+    padding-bottom:70px;
+    font-size: 200px;
+}
