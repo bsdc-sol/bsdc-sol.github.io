@@ -97,3 +97,6 @@ h4 {
   font-size: 25px;
   margin-top: 1px;
 }
+html {
+  scroll-behavior: smooth;
+}
