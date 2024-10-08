@@ -11,10 +11,10 @@ services.addEventListener("click", function () {
   document.getElementById("services").scrollIntoView();
 });
 about.addEventListener("click", function () {
-
+  document.getElementById("about").scrollIntoView();
 });
 help.addEventListener("click", function () {
-
+  window.location.href = "help.html";
 });
 facebook.addEventListener("click", function () {
   window.location.href = "http://www.facebook.com";
