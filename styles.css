@@ -1,13 +1,31 @@
-h1{
-    text-align: right;
-    padding-right: 30px;
-    font-size: 200px;
-    font-family: "Sixtyfour Convergence";
+.mainHeader {
+  text-align: right;
+  padding-right: 30px;
+  font-family: "Sixtyfour Convergence";
+  align-items: right;
+  padding-top: 5px;
+}
+.mainHeaderSol {
+  font-size: 130px;
+  margin: 0;
+  padding: 0;
+}
+.mainHeaderHacker {
+  font-size: 65px;
+  padding: 0;
+}
+.slogan {
+  text-align: right;
+  padding-right: 30px;
+  font-family: "Dosis";
+  font-size: 35px;
+}
+body{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: aliceblue;
 }
-h2{
-    font-size: 100px;
-    text-align: right;
-    padding-right: 30px;
-    font-family: "Sixtyfour Convergence";
+.menu{
+    
 }
