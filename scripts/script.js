@@ -9,7 +9,6 @@ const twitter = document.getElementById("twitter");
 
 services.addEventListener("click", function () {
   console.log("services");
-  ;
 });
 about.addEventListener("click", function () {
   document.getElementById("about").scrollIntoView();
