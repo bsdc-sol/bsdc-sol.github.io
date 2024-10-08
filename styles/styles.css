@@ -6,17 +6,17 @@
   padding-top: 5px;
   display: flex;
   flex-direction: column;
-  
+  gap: 1px;
 }
 .mainHeaderSol {
-  font-size: 150px;
+  font-size: 80px;
   margin: 0;
   padding: 0;
   flex-shrink: 5;
   flex-grow: 5;
 }
 .mainHeaderHacker {
-  font-size: 70px;
+  font-size: 50px;
   padding: 0;
   flex-shrink: 5;
   flex-grow: 5;
@@ -32,6 +32,7 @@ body {
   background-image: url("background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 1920px 1020px ;
 }
 .menu {
   display: flex;
