@@ -1,8 +1,9 @@
-.splash {
-  background-image: url("/images/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
   background-color: black;
+  background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 .menu {
   display: flex;
@@ -62,22 +63,37 @@ h2 {
 h3 {
   margin: 10px;
 }
-.footer{
-  display:flex;
+.footer {
+  display: flex;
   justify-content: space-evenly;
   color: white;
   font-family: "Dosis";
   padding-bottom: 10px;
+  gap: 180px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
 }
-.socials{
-  display:flex;
+.socials {
+  display: flex;
   justify-content: space-evenly;
 }
-p{
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+img {
+  width: 60px;
+  height: 60px;
+}
+p {
   font-size: 20px;
   margin-bottom: 5px;
 }
-h4{
-  font-size:25px;
+h4 {
+  font-size: 25px;
   margin-top: 1px;
 }
