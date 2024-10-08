@@ -4,8 +4,12 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  background-attachment: fixed;
+  height: 70%;
+  width:100%;
+  overflow: hidden;
 }
-.menu {
+.menuContainer {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -24,7 +28,7 @@ input {
   flex-shrink: 5;
   flex-grow: 5;
 }
-.mainHeader {
+.mainHeaderContainer {
   text-align: right;
   padding-right: 30px;
   font-family: "Sixtyfour Convergence";
@@ -33,14 +37,14 @@ input {
   flex-direction: column;
   gap: 1px;
 }
-.mainHeaderSol {
+.mainHeaderSolContainer {
   font-size: 100px;
   margin: 0px;
   padding: 0px;
   flex-shrink: 5;
   flex-grow: 5;
 }
-.mainHeaderHacker {
+.mainHeaderHackerContainer {
   font-size: 65px;
   padding: 0px;
   flex-shrink: 5;
@@ -53,7 +57,7 @@ h1 {
 h2 {
   margin: 0px;
 }
-.slogan {
+.sloganContainer {
   text-align: right;
   padding-right: 30px;
   font-family: "Dosis";
@@ -63,7 +67,15 @@ h2 {
 h3 {
   margin: 10px;
 }
-.footer {
+.servicesContainer {
+  padding-top:300px;
+  padding-bottom: 200px;
+}
+.aboutContainer {
+  padding-top:300px;
+  padding-bottom: 200px;
+}
+.footerContainer {
   display: flex;
   justify-content: space-evenly;
   color: white;
@@ -74,9 +86,10 @@ h3 {
   left: 0;
   bottom: 0;
   width: 100%;
+  height:10%;
   background-color: black;
 }
-.socials {
+.socialsv {
   display: flex;
   justify-content: space-evenly;
 }

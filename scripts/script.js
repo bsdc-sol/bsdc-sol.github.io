@@ -8,7 +8,8 @@ const whatsapp = document.getElementById("whatsapp");
 const twitter = document.getElementById("twitter");
 
 services.addEventListener("click", function () {
-  document.getElementById("services").scrollIntoView();
+  console.log("services");
+  ;
 });
 about.addEventListener("click", function () {
   document.getElementById("about").scrollIntoView();
