@@ -19,13 +19,27 @@
   padding-right: 30px;
   font-family: "Dosis";
   font-size: 35px;
+  color: aliceblue;
 }
-body{
-    background-image: url("background.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: aliceblue;
+body {
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-.menu{
-    
+.menu {
+  display: flex;
+  flex-direction: row-reverse;
+}
+input {
+  color: white;
+  padding: 14px 28px;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  font-family: "Dosis";
+  background: none;
+  margin: 0;
+  padding-left: 50px;
+  padding-right: 50px;
 }
