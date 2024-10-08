@@ -4,15 +4,22 @@
   font-family: "Sixtyfour Convergence";
   align-items: right;
   padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  
 }
 .mainHeaderSol {
-  font-size: 130px;
+  font-size: 150px;
   margin: 0;
   padding: 0;
+  flex-shrink: 5;
+  flex-grow: 5;
 }
 .mainHeaderHacker {
-  font-size: 65px;
+  font-size: 70px;
   padding: 0;
+  flex-shrink: 5;
+  flex-grow: 5;
 }
 .slogan {
   text-align: right;
@@ -42,4 +49,6 @@ input {
   padding-left: 70px;
   padding-right: 70px;
   padding-bottom: 0px;
+  flex-shrink: 5;
+  flex-grow: 5;
 }
