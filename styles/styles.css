@@ -1,4 +1,4 @@
-body {
+.splash {
   background-image: url("/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,6 +67,7 @@ h3 {
   justify-content: space-evenly;
   color: white;
   font-family: "Dosis";
+  padding-bottom: 10px;
 }
 .socials{
   display:flex;
@@ -74,7 +75,9 @@ h3 {
 }
 p{
   font-size: 20px;
+  margin-bottom: 5px;
 }
 h4{
   font-size:25px;
+  margin-top: 1px;
 }
