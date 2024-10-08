@@ -1,5 +1,8 @@
-const menu = document.getElementById("menu");
+const menu = document.querySelector('.hamMenu');
 
-menu.addEventListener("click", function () {
-  console.log("working");
+const offScreenMenu = document.querySelector('.offScreenMenu')
+
+menu.addEventListener("click",function (){
+    menu.classList.toggle("active");
+    offScreenMenu.classList.toggle("active");
 });
