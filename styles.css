@@ -32,14 +32,14 @@ body {
 }
 input {
   color: white;
-  padding: 14px 28px;
-  font-size: 40px;
+  font-size: 50px;
   cursor: pointer;
   text-align: center;
   border: none;
   font-family: "Dosis";
   background: none;
   margin: 0;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 0px;
 }
