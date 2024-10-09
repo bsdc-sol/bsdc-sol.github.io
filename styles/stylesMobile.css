@@ -3,7 +3,8 @@
   background-image: url("/images/backgroundMobile.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100%;
+
 }
 .button {
   color: white;
