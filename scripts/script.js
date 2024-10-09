@@ -1,18 +1,15 @@
-const help = document.getElementById("helpButton");
 const facebook = document.getElementById("facebook");
 const instagram = document.getElementById("instagram");
 const linkedin = document.getElementById("linkedin");
 const whatsapp = document.getElementById("whatsapp");
 const twitter = document.getElementById("twitter");
 
-help.addEventListener("click", function () {
-  window.location.href = "help.html";
-});
 facebook.addEventListener("click", function () {
-  window.location.href = "http://www.facebook.com";
+  console.log("facebook")
+  window.location.href = "https://www.facebook.com/profile.php?id=61567249191119";
 });
 instagram.addEventListener("click", function () {
-  window.location.href = "http://www.instagram.com";
+  window.location.href = "https://www.instagram.com/sol_hacker_cyber/";
 });
 linkedin.addEventListener("click", function () {
   window.location.href = "http://www.linkedin.com";

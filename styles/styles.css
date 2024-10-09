@@ -240,7 +240,7 @@ button {
   border: none;
   cursor: pointer;
 }
-img {
+.socialsIcons {
   width: 60px;
   height: 60px;
 }
@@ -272,7 +272,7 @@ html {
   font-size: 80px;
   text-align: left;
   padding-top: 50px;
-  margin-top: 0px;
+  margin-top: 5px;
   margin-bottom: 0px;
 }
 .menuWhiteBoxContainer {
@@ -296,4 +296,10 @@ html {
   flex-shrink: 5;
   flex-grow: 5;
   text-decoration: none;
+}
+.whiteBoxInfo{
+  padding-top: 10%;
+  padding-right: 3%;
+  font-size: 40px;
+  
 }
