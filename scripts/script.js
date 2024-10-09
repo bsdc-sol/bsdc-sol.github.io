@@ -1,5 +1,3 @@
-const services = document.getElementById("servicesButton");
-const about = document.getElementById("aboutButton");
 const help = document.getElementById("helpButton");
 const facebook = document.getElementById("facebook");
 const instagram = document.getElementById("instagram");
@@ -7,12 +5,6 @@ const linkedin = document.getElementById("linkedin");
 const whatsapp = document.getElementById("whatsapp");
 const twitter = document.getElementById("twitter");
 
-services.addEventListener("click", function () {
-  console.log("services");
-});
-about.addEventListener("click", function () {
-  document.getElementById("about").scrollIntoView();
-});
 help.addEventListener("click", function () {
   window.location.href = "help.html";
 });
