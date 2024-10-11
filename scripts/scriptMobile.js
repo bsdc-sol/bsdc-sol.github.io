@@ -10,11 +10,11 @@ menu.addEventListener("click", function (){
     offScreenMenu.classList.toggle("active");
 });
 services.addEventListener("click", function(){
-    window.locatoin.href("servicesMobile.html")
+    window.locatoin.href="servicesMobile.html";
 });
 about.addEventListener("click", function(){
-    window.location.href("aboutMobile.html")
+    window.location.href="aboutMobile.html";
 });
 help.addEventListener("click", function(){
-    window.location.href("helpMobile.html")
+    window.location.href="helpMobile.html";
 });
