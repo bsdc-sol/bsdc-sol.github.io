@@ -28,6 +28,7 @@
   flex-shrink: 5;
   flex-grow: 5;
   text-decoration: none;
+  margin-bottom:0px;
 }
 .mainHeaderContainer {
   text-align: right;
@@ -68,12 +69,6 @@ h2 {
 h3 {
   margin: 10px;
 }
-.space {
-  padding-top: 240px;
-  margin-bottom: 0px;
-  display: flex;
-  align-items: center;
-}
 .servicesContainer {
   padding-top: 10px;
   margin-top: 0px;
@@ -95,7 +90,7 @@ h3 {
 .menuServicesContainer {
   display: flex;
   flex-direction: column;
-  padding-top: 380px;
+  padding-top: 300px;
   gap: 30px;
   text-align: left;
 }
@@ -190,7 +185,7 @@ h5 {
 .menuAboutContainer {
   display: flex;
   flex-direction: column;
-  padding-top: 380px;
+  padding-top: 350px;
   gap: 30px;
   text-align: left;
 }
@@ -278,7 +273,7 @@ html {
 .menuWhiteBoxContainer {
   display: flex;
   flex-direction: column;
-  padding-top: 380px;
+  padding-top: 320px;
   gap: 30px;
   text-align: left;
 }
