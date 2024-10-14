@@ -1,0 +1,129 @@
+.body {
+  background-color: black;
+  background-image: url("/images/backgroundMobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.servicesTitleContainer {
+  font-family: "Sixtyfour Convergence";
+
+  font-size: 130%;
+}
+.servicesTitleContainer h1 {
+  margin-top: 20px;
+}
+.servicesOptionsContainer {
+  color: white;
+  font-size: 150%;
+  font-family: "Dosis";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.optionsRow1 {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  padding-top: 50px;
+  align-items: center;
+}
+.optionsRow1 h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  width: max-content;
+  height: max-content;
+}
+.optionsRow1 a {
+  text-decoration: none;
+  color: white;
+}
+.optionsRow1 h6::before {
+  content: "";
+  background: rgb(16, 56, 4);
+  top: 50%;
+  left: 50%;
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  translate: -50% -50%;
+  z-index: -1;
+  border-radius: 20px;
+  opacity: 70%;
+}
+.optionsRow2 {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  padding-top: 50px;
+  align-items: center;
+}
+.optionsRow2 h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  width: max-content;
+  height: max-content;
+}
+.optionsRow2 h6::before {
+  content: "";
+  background: rgb(16, 56, 4);
+  top: 50%;
+  left: 50%;
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  translate: -50% -50%;
+  z-index: -1;
+  border-radius: 20px;
+  opacity: 70%;
+}
+.optionsRow2 a {
+  text-decoration: none;
+  color: white;
+}
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Dosis";
+  padding-bottom: 10px;
+  gap: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 26%;
+  background-color: black;
+  text-align: left;
+}
+.socialsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3%;
+  margin-bottom: 1%;
+  padding-top: 0px;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.info {
+  padding-left: 30px;
+  padding-top: 5px;
+}
+.info p {
+  font-size: 10px;
+  margin-bottom: 2px;
+}
+.info h4 {
+  font-size: 15px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+.socialsContainer img {
+  width: 30px;
+  height: 30px;
+}

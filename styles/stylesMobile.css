@@ -101,11 +101,11 @@
   flex-shrink: 5;
   flex-grow: 5;
 }
-h1 {
+.mainHeaderContainer h1 {
   margin-bottom: 0px;
   margin-top: 60px;
 }
-h2 {
+.mainHeaderContainer h2 {
   margin: 0px;
 }
 .sloganContainer {
@@ -115,7 +115,7 @@ h2 {
   font-size: 17px;
   color: aliceblue;
 }
-h3 {
+.sloganContainer h3 {
   margin: 10px;
 }
 .footerContainer {
@@ -149,16 +149,16 @@ button {
   padding-left: 30px;
   padding-top: 5px;
 }
-p {
+.footerContainer p {
   font-size: 10px;
   margin-bottom: 2px;
 }
-h4 {
+.footerContainer h4 {
   font-size: 15px;
   margin-top: 1px;
   margin-bottom: 2px;
 }
-img {
+.socialsContainer img {
   width: 30px;
   height: 30px;
 }
