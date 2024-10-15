@@ -138,14 +138,14 @@ body {
   text-decoration: none;
 }
 .optionsRow1 h6{
-  background: black;
+  background: rgb(0,0,0,0.7);
   width:300px;
   height:45px;
   text-align: center;
   border-radius: 20px;
 }
 .optionsRow2 h6{
-  background: black;
+  background: rgb(0,0,0,0.7);
   width:300px;
   height:45px;
   text-align: center;
