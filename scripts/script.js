@@ -3,6 +3,7 @@ const instagram = document.getElementById("instagram");
 const linkedin = document.getElementById("linkedin");
 const whatsapp = document.getElementById("whatsapp");
 const twitter = document.getElementById("twitter");
+const wBox = document.getElementById("wBoxButton");
 
 facebook.addEventListener("click", function () {
   console.log("facebook")
@@ -23,4 +24,7 @@ twitter.addEventListener("click", function () {
 top.addEventListener("click", function () {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+});
+wBox.addEventListener("click",function(){
+  window.location.href="wBox.html"
 });
