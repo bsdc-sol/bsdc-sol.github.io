@@ -1,9 +1,13 @@
+const home = document.getElementById("home");
 const facebook = document.getElementById("facebook");
 const instagram = document.getElementById("instagram");
 const linkedin = document.getElementById("linkedin");
 const whatsapp = document.getElementById("whatsapp");
 const twitter = document.getElementById("twitter");
 
+home.addEventListener("click", function(){
+  window.location.ref = "index.html";
+});
 facebook.addEventListener("click", function () {
   console.log("facebook")
   window.location.href = "https://www.facebook.com/profile.php?id=61567249191119";
