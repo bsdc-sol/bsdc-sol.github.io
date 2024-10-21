@@ -4,6 +4,11 @@ const linkedin = document.getElementById("linkedin");
 const whatsapp = document.getElementById("whatsapp");
 const twitter = document.getElementById("twitter");
 const wBox = document.getElementById("wBoxButton");
+const bBox = document.getElementById("bBoxButton");
+const webApp = document.getElementById("webAppButton");
+const socialEng = document.getElementById("socialEngButton");
+const redTeam = document.getElementById("redTeamButton");
+const onSite = document.getElementById("onSiteButton");
 
 facebook.addEventListener("click", function () {
   console.log("facebook")
@@ -27,4 +32,19 @@ top.addEventListener("click", function () {
 });
 wBox.addEventListener("click",function(){
   window.location.href="wBox.html"
+});
+bBox.addEventListener("click",function(){
+  window.location.href="bBox.html"
+});
+webApp.addEventListener("click",function(){
+  window.location.href="webApp.html"
+});
+socialEng.addEventListener("click",function(){
+  window.location.href="socialEng.html"
+});
+redTeam.addEventListener("click",function(){
+  window.location.href="redTeam.html"
+});
+onSite.addEventListener("click",function(){
+  window.location.href="onSite.html"
 });
