@@ -26,10 +26,6 @@ whatsapp.addEventListener("click", function () {
 twitter.addEventListener("click", function () {
   window.location.href = "http://www.x.com";
 });
-top.addEventListener("click", function () {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-});
 wBox.addEventListener("click",function(){
   window.location.href="wBox.html"
 });
