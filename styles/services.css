@@ -370,11 +370,7 @@ body {
   align-items: center;
   gap: 3vw;
 }
-.webAppInfo::before {
-  content: "";
-  background: rgba(10, 97, 8, 0.5);
-  position: absolute;
-}
+
 .webAppInfo h5 {
   margin-bottom: 0%;
 }
@@ -451,11 +447,7 @@ body {
   align-items: center;
   gap: 3vw;
 }
-.socialEngInfo::before {
-  content: "";
-  background: rgba(10, 97, 8, 0.5);
-  position: absolute;
-}
+
 .socialEngInfo h5 {
   margin-bottom: 0%;
 }
@@ -615,12 +607,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3vw;
-}
-.onSiteInfo::before {
-  content: "";
-  background: rgba(10, 97, 8, 0.5);
-  position: absolute;
+  gap: 1vw;
 }
 .onSiteInfo h5 {
   margin-bottom: 0%;
@@ -629,6 +616,7 @@ body {
 .onSiteInfo img {
   height: 20vw;
   width: 40vw;
+  opacity:0;
 }
 
 .onSiteInfo button {
@@ -644,6 +632,7 @@ body {
   position: relative;
   height: max-content;
   width: max-content;
+  margin-top:1vw;
 }
 
 .onSiteInfo button::before {
