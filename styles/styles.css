@@ -11,14 +11,12 @@
   margin-right: 0px;
   top: 0;
 }
-
 .mainMenu {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 1%;
   gap: 1vw;
 }
-
 .mainMenu a {
   color: white;
   font-size: 3vw;
@@ -36,7 +34,6 @@
   text-decoration: none;
   margin-bottom: 0px;
 }
-
 .mainTitle {
   text-align: right;
   padding-right: 2%;
@@ -46,28 +43,23 @@
   flex-direction: column;
   gap: 1px;
 }
-
 .mainTitle h1 {
   margin: 0px;
 }
-
 .mainTitle h2 {
   margin: 0px;
 }
-
 .mainTitleSol {
   font-size: 5vw;
   margin: 0px;
   padding: 0px;
 }
-
 .mainTitleHacker {
   font-size: 3.4vw;
   padding: 0px;
   flex-shrink: 5;
   flex-grow: 5;
 }
-
 .mainSlogan {
   text-align: right;
   padding-right: 30px;
@@ -75,24 +67,20 @@
   font-size: 2.5vw;
   color: aliceblue;
 }
-
 .mainSlogan h3 {
   margin: 10px;
 }
-
 .mainNav {
   display: flex;
   flex-direction: column;
   gap: 8vw;
   padding-left: 1vw;
 }
-
 .mainSubpageMenu {
   display: flex;
   flex-direction: column;
   gap: 2vw;
 }
-
 .mainSubpageMenu a {
   color: white;
   font-size: 2.8vw;
@@ -108,7 +96,6 @@
   flex-grow: 5;
   text-decoration: none;
 }
-
 .mainAbout {
   padding-top: 0px;
   padding-bottom: 10vw;
@@ -122,7 +109,6 @@
   justify-content: space-between;
   padding-left: 2.5vw;
 }
-
 .mainAboutTitle {
   font-size: 2vw;
   text-align: left;
@@ -130,7 +116,6 @@
   margin-top: 0.5vw;
   margin-bottom: 0px;
 }
-
 .mainAboutInfo {
   padding-right: 2.5vw;
   padding-top: 13vw;
@@ -138,7 +123,6 @@
   font-size: 1.9vw;
   padding-left: 30vw;
 }
-
 .mainAboutInfo h5 {
   margin: 0px;
 }
@@ -221,7 +205,6 @@
   font-size: 2.3vw;
   margin-top: 0px;
 }
-
 .servicesOptionsRow1 {
   margin-left: 20vw;
   display: flex;
@@ -274,7 +257,7 @@
   flex-direction: column;
   gap: 3vw;
 }
-.optionMenu a {
+.servicesOptionMenu a {
   color: white;
   font-size: 2.5vw;
   cursor: pointer;
@@ -289,8 +272,7 @@
   flex-grow: 5;
   text-decoration: none;
 }
-
-.optionContainer {
+.servicesOptionContainer {
   padding-top: 0px;
   padding-bottom: 10vw;
   padding-top: 0.5vw;
@@ -303,16 +285,14 @@
   justify-content: space-between;
   padding-left: 2.5vw;
 }
-
-.optionTitle {
+.servicesOptionTitle {
   font-size: 2vw;
   text-align: left;
   padding-top: 3vw;
   margin-top: 0.25vw;
   margin-bottom: 0px;
 }
-
-.whiteBoxInfo {
+.servicesWhiteBoxInfo {
   padding-top: 5%;
   padding-right: 5%;
   font-size: 2vw;
@@ -322,18 +302,15 @@
   align-items: center;
   gap: 1vw;
 }
-
-.whiteBoxInfo h5 {
+.servicesWhiteBoxInfo h5 {
   margin-bottom: 0%;
 }
-
-.whiteBoxInfo img {
+.servicesWhiteBoxInfo img {
   height: 20vw;
   width: 15vw;
   margin-top: 0px;
 }
-
-.whiteBoxInfo button {
+.servicesWhiteBoxInfo button {
   background: none;
   border: none;
   font-family: "Dosis";
@@ -348,8 +325,7 @@
   width: max-content;
   margin-top: 2vw;
 }
-
-.whiteBoxInfo button::before {
+.servicesWhiteBoxInfo button::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -363,13 +339,11 @@
   transition: all 0.3s;
   border-radius: 3vw;
 }
-
-.whiteBoxInfo button:hover::before {
+.servicesWhiteBoxInfo button:hover::before {
   opacity: 0;
   transform: scale(0.5, 0.5);
 }
-
-.whiteBoxInfo button::after {
+.servicesWhiteBoxInfo button::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -385,13 +359,11 @@
   transform: scale(1.2, 1.2);
   border-radius: 3vw;
 }
-
-.whiteBoxInfo button:hover::after {
+.servicesWhiteBoxInfo button:hover::after {
   opacity: 1;
   transform: scale(1, 1);
 }
-
-.blackBoxInfo {
+.servicesBlackBoxInfo {
   padding-top: 5%;
   padding-right: 5%;
   font-size: 2vw;
@@ -401,16 +373,14 @@
   align-items: center;
   gap: 3vw;
 }
-.blackBoxInfo h5 {
+.servicesBlackBoxInfo h5 {
   margin-bottom: 0%;
 }
-
-.blackBoxInfo img {
+.servicesBlackBoxInfo img {
   height: 20vw;
   width: 15vw;
 }
-
-.blackBoxInfo button {
+.servicesBlackBoxInfo button {
   background: none;
   border: none;
   font-family: "Dosis";
@@ -424,8 +394,7 @@
   height: max-content;
   width: max-content;
 }
-
-.blackBoxInfo button::before {
+.servicesBlackBoxInfo button::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -439,13 +408,11 @@
   transition: all 0.3s;
   border-radius: 3vw;
 }
-
-.blackBoxInfo button:hover::before {
+.servicesBlackBoxInfo button:hover::before {
   opacity: 0;
   transform: scale(0.5, 0.5);
 }
-
-.blackBoxInfo button::after {
+.servicesBlackBoxInfo button::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -461,13 +428,11 @@
   transform: scale(1.2, 1.2);
   border-radius: 3vw;
 }
-
-.blackBoxInfo button:hover::after {
+.servicesBlackBoxInfo button:hover::after {
   opacity: 1;
   transform: scale(1, 1);
 }
-
-.webAppInfo {
+.servicesWebAppInfo {
   margin-top: 5%;
   margin-right: 5%;
   font-size: 2vw;
@@ -477,17 +442,14 @@
   align-items: center;
   gap: 3vw;
 }
-
-.webAppInfo h5 {
+.servicesWebAppInfo h5 {
   margin-bottom: 0%;
 }
-
-.webAppInfo img {
+.servicesWebAppInfo img {
   height: 20vw;
   width: 40vw;
 }
-
-.webAppInfo button {
+.servicesWebAppInfo button {
   background: none;
   border: none;
   font-family: "Dosis";
@@ -501,8 +463,7 @@
   height: max-content;
   width: max-content;
 }
-
-.webAppInfo button::before {
+.servicesWebAppInfo button::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -516,13 +477,11 @@
   transition: all 0.3s;
   border-radius: 3vw;
 }
-
-.webAppInfo button:hover::before {
+.servicesWebAppInfo button:hover::before {
   opacity: 0;
   transform: scale(0.5, 0.5);
 }
-
-.webAppInfo button::after {
+.servicesWebAppInfo button::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -538,13 +497,11 @@
   transform: scale(1.2, 1.2);
   border-radius: 3vw;
 }
-
-.webAppInfo button:hover::after {
+.servicesWebAppInfo button:hover::after {
   opacity: 1;
   transform: scale(1, 1);
 }
-
-.socialEngInfo {
+.servicesSocialEngInfo {
   margin-top: 5%;
   margin-right: 5%;
   font-size: 2vw;
@@ -554,17 +511,14 @@
   align-items: center;
   gap: 3vw;
 }
-
-.socialEngInfo h5 {
+.servicesSocialEngInfo h5 {
   margin-bottom: 0%;
 }
-
-.socialEngInfo img {
+.servicesSocialEngInfo img {
   height: 20vw;
   width: 40vw;
 }
-
-.socialEngInfo button {
+.servicesSocialEngInfo button {
   background: none;
   border: none;
   font-family: "Dosis";
@@ -578,8 +532,7 @@
   height: max-content;
   width: max-content;
 }
-
-.socialEngInfo button::before {
+.servicesSocialEngInfo button::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -593,13 +546,11 @@
   transition: all 0.3s;
   border-radius: 3vw;
 }
-
-.socialEngInfo button:hover::before {
+.servicesSocialEngInfo button:hover::before {
   opacity: 0;
   transform: scale(0.5, 0.5);
 }
-
-.socialEngInfo button::after {
+.servicesSocialEngInfo button::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -615,21 +566,18 @@
   transform: scale(1.2, 1.2);
   border-radius: 3vw;
 }
-
-.socialEngInfo button:hover::after {
+.servicesSocialEngInfo button:hover::after {
   opacity: 1;
   transform: scale(1, 1);
 }
-
-.redTeamTitle {
+.servicesRedTeamTitle {
   font-size: 2vw;
   text-align: left;
   padding-top: 3vw;
   margin-top: 0.25vw;
   margin-bottom: 5vw;
 }
-
-.redTeamInfo {
+.servicesRedTeamInfo {
   margin-top: 5%;
   margin-right: 5%;
   font-size: 2vw;
@@ -639,16 +587,14 @@
   align-items: center;
   gap: 1vw;
 }
-.redTeamInfo h5 {
+.servicesRedTeamInfo h5 {
   margin-bottom: 0%;
 }
-
-.redTeamInfo img {
+.servicesRedTeamInfo img {
   height: 20vw;
   width: 40vw;
 }
-
-.redTeamInfo button {
+.servicesRedTeamInfo button {
   background: none;
   border: none;
   font-family: "Dosis";
@@ -663,8 +609,7 @@
   width: max-content;
   margin-top:1vw;
 }
-
-.redTeamInfo button::before {
+.servicesRedTeamInfo button::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -678,13 +623,11 @@
   transition: all 0.3s;
   border-radius: 3vw;
 }
-
-.redTeamInfo button:hover::before {
+.servicesRedTeamInfo button:hover::before {
   opacity: 0;
   transform: scale(0.5, 0.5);
 }
-
-.redTeamInfo button::after {
+.servicesRedTeamInfo button::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -700,13 +643,11 @@
   transform: scale(1.2, 1.2);
   border-radius: 3vw;
 }
-
-.redTeamInfo button:hover::after {
+.servicesRedTeamInfo button:hover::after {
   opacity: 1;
   transform: scale(1, 1);
 }
-
-.onSiteInfo {
+.servicesOnSiteInfo {
   margin-top: 10%;
   margin-right: 5%;
   font-size: 2vw;
@@ -716,17 +657,15 @@
   align-items: center;
   gap: 5vw;
 }
-.onSiteInfo h5 {
+.servicesOnSiteInfo h5 {
   margin-bottom: 0%;
 }
-
-.onSiteInfo img {
+.servicesOnSiteInfo img {
   height: 20vw;
   width: 40vw;
   opacity:0;
 }
-
-.onSiteInfo button {
+.servicesOnSiteInfo button {
   background: none;
   border: none;
   font-family: "Dosis";
@@ -741,12 +680,11 @@
   width: max-content;
   margin-top:1vw;
 }
-
-.onSiteInfo button::before {
+.servicesOnSiteInfo button::before {
   content: "";
   position: absolute;
   top: 50%;
-  left: 50%;l
+  left: 50%;
   width: 100%;
   height: 100%;
   padding: 1vw;
@@ -756,12 +694,10 @@
   transition: all 0.3s;
   border-radius: 3vw;
 }
-
-.onSiteInfo button:hover::before {
+.servicesOnSiteInfo button:hover::before {
   opacity: 0;
   transform: scale(0.5, 0.5);
 }
-
 .servicesOnSiteInfo button::after {
   content: "";
   position: absolute;
@@ -778,7 +714,6 @@
   transform: scale(1.2, 1.2);
   border-radius: 3vw;
 }
-
 .servicesOnSiteInfo button:hover::after {
   opacity: 1;
   transform: scale(1, 1);
@@ -799,28 +734,23 @@
   height: 10%;
   background-color: black;
 }
-
 .desktopSocials {
   display: flex;
   justify-content: space-evenly;
 }
-
 .desktopSocials button {
   background: none;
   border: none;
   cursor: pointer;
 }
-
 .desktopSocialsIcons {
   width: 3vw;
   height: 3vw;
 }
-
 .desktopFooter p {
   font-size: 1vw;
   margin-bottom: 0.25vw;
 }
-
 .desktopFooter h4 {
   font-size: 1.25vw;
   margin-top: 0.05vw;
@@ -885,12 +815,10 @@
 .mobileHamMenu span:nth-child(3) {
   top: 75%;
 }
-
 .mobileHamMenu.active span:nth-child(1) {
   top: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
 }
-
 .mobileHamMenu.active span:nth-child(2) {
   opacity: 0;
 }
@@ -914,7 +842,6 @@
   flex-shrink: 5;
   flex-grow: 5;
 }
-
 .mobileTitleHacker {
   font-size: 27px;
   padding: 0px;
@@ -979,7 +906,6 @@
   margin-top: 1px;
   margin-bottom: 2px;
 }
-
 .mobileFooter img {
   width: 30px;
   height: 30px;
