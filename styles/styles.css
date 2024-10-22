@@ -1,4 +1,5 @@
-body {
+/* index */
+.mainBody {
   background-color: black;
   background-image: url("/images/background.jpg");
   background-repeat: no-repeat;
@@ -11,14 +12,14 @@ body {
   top: 0;
 }
 
-.menu {
+.mainMenu {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 1%;
   gap: 1vw;
 }
 
-.menu a {
+.mainMenu a {
   color: white;
   font-size: 3vw;
   cursor: pointer;
@@ -36,7 +37,7 @@ body {
   margin-bottom: 0px;
 }
 
-.title {
+.mainTitle {
   text-align: right;
   padding-right: 2%;
   font-family: "Sixtyfour Convergence";
@@ -46,28 +47,28 @@ body {
   gap: 1px;
 }
 
-.title h1 {
+.mainTitle h1 {
   margin: 0px;
 }
 
-.title h2 {
+.mainTitle h2 {
   margin: 0px;
 }
 
-.titleSol {
+.mainTitleSol {
   font-size: 5vw;
   margin: 0px;
   padding: 0px;
 }
 
-.titleHacker {
+.mainTitleHacker {
   font-size: 3.4vw;
   padding: 0px;
   flex-shrink: 5;
   flex-grow: 5;
 }
 
-.slogan {
+.mainSlogan {
   text-align: right;
   padding-right: 30px;
   font-family: "Dosis";
@@ -75,24 +76,24 @@ body {
   color: aliceblue;
 }
 
-.slogan h3 {
+.mainSlogan h3 {
   margin: 10px;
 }
 
-.nav {
+.mainNav {
   display: flex;
   flex-direction: column;
   gap: 8vw;
   padding-left: 1vw;
 }
 
-.subpageMenu {
+.mainSubpageMenu {
   display: flex;
   flex-direction: column;
   gap: 2vw;
 }
 
-.subpageMenu a {
+.mainSubpageMenu a {
   color: white;
   font-size: 2.8vw;
   cursor: pointer;
@@ -108,7 +109,7 @@ body {
   text-decoration: none;
 }
 
-.about {
+.mainAbout {
   padding-top: 0px;
   padding-bottom: 10vw;
   padding-top: 0.5vw;
@@ -122,7 +123,7 @@ body {
   padding-left: 2.5vw;
 }
 
-.aboutTitle {
+.mainAboutTitle {
   font-size: 2vw;
   text-align: left;
   padding-top: 2.5vw;
@@ -130,7 +131,7 @@ body {
   margin-bottom: 0px;
 }
 
-.aboutInfo {
+.mainAboutInfo {
   padding-right: 2.5vw;
   padding-top: 13vw;
   text-align: right;
@@ -138,11 +139,652 @@ body {
   padding-left: 30vw;
 }
 
-.aboutInfo h5 {
+.mainAboutInfo h5 {
   margin: 0px;
 }
+/* services */
+.servicesNav {
+  display: flex;
+  flex-direction: column;
+  gap: 8vw;
+  padding-left: 1vw;
+}
+.servicesMenu {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 1%;
+  gap: 1vw;
+}
+.servicesMenu a {
+  color: white;
+  font-size: 3vw;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  font-family: "Dosis";
+  background: none;
+  margin: 0;
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
+  padding-bottom: 0px;
+  flex-shrink: 5;
+  flex-grow: 5;
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+.servicesTitle {
+  text-align: right;
+  padding-right: 2%;
+  font-family: "Sixtyfour Convergence";
+  padding-top: 6%;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-size: 3vw;
+  padding-bottom: 8vw;
+}
+.servicesSubpageMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+.servicesSubpageMenu a {
+  color: white;
+  font-size: 2.5vw;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  font-family: "Dosis";
+  background: none;
+  margin: 0;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  flex-shrink: 5;
+  flex-grow: 5;
+  text-decoration: none;
+}
+.servicesOptions {
+  padding-top: 5vw;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-family: "Dosis";
+  color: white;
+  display: flex;
+  padding-left: 3vw;
+  flex-direction: row;
+  gap: 10vw;
+}
+.servicesOptionsTitle {
+  text-align: center;
+  padding-top: 6px;
+  font-size: 2.3vw;
+  margin-top: 0px;
+}
 
-.footer {
+.servicesOptionsRow1 {
+  margin-left: 20vw;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.6vw;
+  gap: 3vw;
+  padding-top: 1vw;
+  text-align: center;
+}
+.servicesOptionsRow2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.6vw;
+  gap: 3vw;
+  text-align: center;
+  padding-top: 1vw;
+}
+.servicesOptionsRow1 a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.servicesOptionsRow2 a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.servicesOptionsRow1 h6 {
+  background: rgb(0, 0, 0, 0.7);
+  width: 15vw;
+  height: 2.5vw;
+  text-align: center;
+  border-radius: 1vw;
+}
+.servicesOptionsRow2 h6 {
+  background: rgb(0, 0, 0, 0.7);
+  width: 15vw;
+  height: 2.5vw;
+  text-align: center;
+  border-radius: 1vw;
+}
+.servicesOptionNav {
+  display: flex;
+  flex-direction: column;
+  gap: 6vw;
+  padding-left: 1vw;
+}
+.servicesOptionMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+.optionMenu a {
+  color: white;
+  font-size: 2.5vw;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  font-family: "Dosis";
+  background: none;
+  margin: 0;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  flex-shrink: 5;
+  flex-grow: 5;
+  text-decoration: none;
+}
+
+.optionContainer {
+  padding-top: 0px;
+  padding-bottom: 10vw;
+  padding-top: 0.5vw;
+  margin-top: 0px;
+  padding-bottom: 10vw;
+  font-family: "Dosis";
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 2.5vw;
+}
+
+.optionTitle {
+  font-size: 2vw;
+  text-align: left;
+  padding-top: 3vw;
+  margin-top: 0.25vw;
+  margin-bottom: 0px;
+}
+
+.whiteBoxInfo {
+  padding-top: 5%;
+  padding-right: 5%;
+  font-size: 2vw;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+
+.whiteBoxInfo h5 {
+  margin-bottom: 0%;
+}
+
+.whiteBoxInfo img {
+  height: 20vw;
+  width: 15vw;
+  margin-top: 0px;
+}
+
+.whiteBoxInfo button {
+  background: none;
+  border: none;
+  font-family: "Dosis";
+  color: white;
+  font-size: 3vw;
+  cursor: pointer;
+  line-height: 2.5vw;
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+  height: max-content;
+  width: max-content;
+  margin-top: 2vw;
+}
+
+.whiteBoxInfo button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+  translate: -50% -50%;
+  z-index: -1;
+  background-color: rgba(10, 97, 8, 0.5);
+  transition: all 0.3s;
+  border-radius: 3vw;
+}
+
+.whiteBoxInfo button:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+
+.whiteBoxInfo button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 0.2vw solid rgba(10, 97, 8, 0.5);
+  transform: scale(1.2, 1.2);
+  border-radius: 3vw;
+}
+
+.whiteBoxInfo button:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.blackBoxInfo {
+  padding-top: 5%;
+  padding-right: 5%;
+  font-size: 2vw;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vw;
+}
+.blackBoxInfo h5 {
+  margin-bottom: 0%;
+}
+
+.blackBoxInfo img {
+  height: 20vw;
+  width: 15vw;
+}
+
+.blackBoxInfo button {
+  background: none;
+  border: none;
+  font-family: "Dosis";
+  color: white;
+  font-size: 3vw;
+  cursor: pointer;
+  line-height: 2.5vw;
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+  height: max-content;
+  width: max-content;
+}
+
+.blackBoxInfo button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+  translate: -50% -50%;
+  z-index: -1;
+  background-color: rgba(10, 97, 8, 0.5);
+  transition: all 0.3s;
+  border-radius: 3vw;
+}
+
+.blackBoxInfo button:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+
+.blackBoxInfo button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 0.2vw solid rgba(10, 97, 8, 0.5);
+  transform: scale(1.2, 1.2);
+  border-radius: 3vw;
+}
+
+.blackBoxInfo button:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.webAppInfo {
+  margin-top: 5%;
+  margin-right: 5%;
+  font-size: 2vw;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vw;
+}
+
+.webAppInfo h5 {
+  margin-bottom: 0%;
+}
+
+.webAppInfo img {
+  height: 20vw;
+  width: 40vw;
+}
+
+.webAppInfo button {
+  background: none;
+  border: none;
+  font-family: "Dosis";
+  color: white;
+  font-size: 3vw;
+  cursor: pointer;
+  line-height: 2.5vw;
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+  height: max-content;
+  width: max-content;
+}
+
+.webAppInfo button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+  translate: -50% -50%;
+  z-index: -1;
+  background-color: rgba(10, 97, 8, 0.5);
+  transition: all 0.3s;
+  border-radius: 3vw;
+}
+
+.webAppInfo button:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+
+.webAppInfo button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 0.2vw solid rgba(10, 97, 8, 0.5);
+  transform: scale(1.2, 1.2);
+  border-radius: 3vw;
+}
+
+.webAppInfo button:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.socialEngInfo {
+  margin-top: 5%;
+  margin-right: 5%;
+  font-size: 2vw;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vw;
+}
+
+.socialEngInfo h5 {
+  margin-bottom: 0%;
+}
+
+.socialEngInfo img {
+  height: 20vw;
+  width: 40vw;
+}
+
+.socialEngInfo button {
+  background: none;
+  border: none;
+  font-family: "Dosis";
+  color: white;
+  font-size: 3vw;
+  cursor: pointer;
+  line-height: 2.5vw;
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+  height: max-content;
+  width: max-content;
+}
+
+.socialEngInfo button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+  translate: -50% -50%;
+  z-index: -1;
+  background-color: rgba(10, 97, 8, 0.5);
+  transition: all 0.3s;
+  border-radius: 3vw;
+}
+
+.socialEngInfo button:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+
+.socialEngInfo button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 0.2vw solid rgba(10, 97, 8, 0.5);
+  transform: scale(1.2, 1.2);
+  border-radius: 3vw;
+}
+
+.socialEngInfo button:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.redTeamTitle {
+  font-size: 2vw;
+  text-align: left;
+  padding-top: 3vw;
+  margin-top: 0.25vw;
+  margin-bottom: 5vw;
+}
+
+.redTeamInfo {
+  margin-top: 5%;
+  margin-right: 5%;
+  font-size: 2vw;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+.redTeamInfo h5 {
+  margin-bottom: 0%;
+}
+
+.redTeamInfo img {
+  height: 20vw;
+  width: 40vw;
+}
+
+.redTeamInfo button {
+  background: none;
+  border: none;
+  font-family: "Dosis";
+  color: white;
+  font-size: 3vw;
+  cursor: pointer;
+  line-height: 2.5vw;
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+  height: max-content;
+  width: max-content;
+  margin-top:1vw;
+}
+
+.redTeamInfo button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+  translate: -50% -50%;
+  z-index: -1;
+  background-color: rgba(10, 97, 8, 0.5);
+  transition: all 0.3s;
+  border-radius: 3vw;
+}
+
+.redTeamInfo button:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+
+.redTeamInfo button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 0.2vw solid rgba(10, 97, 8, 0.5);
+  transform: scale(1.2, 1.2);
+  border-radius: 3vw;
+}
+
+.redTeamInfo button:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.onSiteInfo {
+  margin-top: 10%;
+  margin-right: 5%;
+  font-size: 2vw;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vw;
+}
+.onSiteInfo h5 {
+  margin-bottom: 0%;
+}
+
+.onSiteInfo img {
+  height: 20vw;
+  width: 40vw;
+  opacity:0;
+}
+
+.onSiteInfo button {
+  background: none;
+  border: none;
+  font-family: "Dosis";
+  color: white;
+  font-size: 3vw;
+  cursor: pointer;
+  line-height: 2.5vw;
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+  height: max-content;
+  width: max-content;
+  margin-top:1vw;
+}
+
+.onSiteInfo button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+  translate: -50% -50%;
+  z-index: -1;
+  background-color: rgba(10, 97, 8, 0.5);
+  transition: all 0.3s;
+  border-radius: 3vw;
+}
+
+.onSiteInfo button:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+
+.servicesOnSiteInfo button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 0.2vw solid rgba(10, 97, 8, 0.5);
+  transform: scale(1.2, 1.2);
+  border-radius: 3vw;
+}
+
+.servicesOnSiteInfo button:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+/* desktop footer */
+.desktopFooter {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -158,32 +800,190 @@ body {
   background-color: black;
 }
 
-.socials {
+.desktopSocials {
   display: flex;
   justify-content: space-evenly;
 }
 
-.socials button {
+.desktopSocials button {
   background: none;
   border: none;
   cursor: pointer;
 }
 
-.socialsIcons {
+.desktopSocialsIcons {
   width: 3vw;
   height: 3vw;
 }
 
-.footer p {
+.desktopFooter p {
   font-size: 1vw;
   margin-bottom: 0.25vw;
 }
 
-.footer h4 {
+.desktopFooter h4 {
   font-size: 1.25vw;
   margin-top: 0.05vw;
 }
+/* mobile index */
+.mobileBody {
+  background-color: black;
+  background-image: url("/images/backgroundMobile.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.mobileButton {
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  font-family: "Dosis";
+  background: none;
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.mobileOffScreenMenu {
+  background-color: rgb(16, 56, 4);
+  height: 100vh;
+  width: 100%;
+  max-width: 350px;
+  position: fixed;
+  top: 0;
+  left: -450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: 0.3s ease;
+  font-family: "Dosis";
+}
+.mobileOffScreenMenu input {
+  font-size: 40px;
+}
+.mobileOffScreenMenu.active {
+  left: 0;
+}
+.mobileMenu {
+  padding: 1rem;
+  display: flex;
+  background-color: rgb(16, 56, 4);
+}
+.mobileHamMenu {
+  height: 40px;
+  width: 40px;
+  margin-right: auto;
+  position: relative;
+}
+.mobileHamMenu span:nth-child(1) {
+  top: 25%;
+}
+.mobileHamMenu span:nth-child(3) {
+  top: 75%;
+}
 
+.mobileHamMenu.active span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.mobileHamMenu.active span:nth-child(2) {
+  opacity: 0;
+}
+.mobileHamMenu.active span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.mobileTitle {
+  text-align: right;
+  padding-right: 10px;
+  font-family: "Sixtyfour Convergence";
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.mobileTitleSol {
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+  flex-shrink: 5;
+  flex-grow: 5;
+}
+
+.mobileTitleHacker {
+  font-size: 27px;
+  padding: 0px;
+  flex-shrink: 5;
+  flex-grow: 5;
+}
+.mobileTitle h1 {
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+.mobileTitle h2 {
+  margin: 0px;
+}
+.mobileSlogan {
+  text-align: right;
+  padding-right: 10px;
+  font-family: "Dosis";
+  font-size: 17px;
+  color: aliceblue;
+}
+.mobileSlogan h3 {
+  margin: 10px;
+}
+/* mobile footer */
+.mobileFooter {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Dosis";
+  padding-bottom: 10px;
+  gap: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 26%;
+  background-color: black;
+  text-align: left;
+}
+.mobileSocials {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3%;
+  margin-bottom: 1%;
+  padding-top: 0px;
+}
+.mobileFooter button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.mobileInfo {
+  padding-left: 30px;
+  padding-top: 5px;
+}
+.mobileFooter p {
+  font-size: 10px;
+  margin-bottom: 2px;
+}
+.mobileFooter h4 {
+  font-size: 15px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+
+.mobileFooter img {
+  width: 30px;
+  height: 30px;
+}
 html {
   scroll-behavior: smooth;
   overflow: hidden;
