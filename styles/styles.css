@@ -18,15 +18,14 @@
   justify-content: space-between;
   align-items: center;
 }
-.mainMenuOptions{
+.mainMenuOptions {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 1%;
   gap: 1vw;
 }
-.mainLogin{
+.mainLogin {
   padding-left: 1%;
-
 }
 .mainMenu a {
   color: white;
@@ -122,7 +121,7 @@
   padding-top: 0px;
   padding-bottom: 10vw;
   padding-top: 0.5vw;
-  margin-top: 0px;
+  margin-top: 5vw;
   padding-bottom: 10vw;
   font-family: "Dosis";
   color: white;
@@ -825,7 +824,7 @@
 }
 
 /* desktop help*/
-.navbar {
+.helpNavbar {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -833,7 +832,7 @@
   gap: 25vw;
 }
 
-.navbar input {
+.helpNavbar input {
   width: 30%;
   height: 1.5vw;
   font-size: large;
@@ -844,7 +843,7 @@
   background-color: white;
 }
 
-.navbar a {
+.helpNavbar a {
   background: none;
   border: none;
   color: white;
@@ -854,7 +853,7 @@
   text-decoration: none;
 }
 
-.title {
+.helpTitle {
   font-family: "Sixtyfour Convergence";
   text-align: center;
   size: 100%;
@@ -862,50 +861,10 @@
   margin-top: 5vw;
 }
 
-.title h1 {
+.helpTitle h1 {
   margin-top: 0%;
 }
-
-.footer {
-  display: flex;
-  justify-content: space-evenly;
-  color: white;
-  font-family: "Dosis";
-  padding-bottom: 0.5vw;
-  gap: 6vw;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 10%;
-  background-color: black;
-}
-
-.socials {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.socials button {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-.socialsIcons {
-  width: 3vw;
-  height: 3vw;
-}
-
-.footer p {
-  font-size: 1vw;
-  margin-bottom: 0.25vw;
-}
-
-.footer h4 {
-  font-size: 1.25vw;
-  margin-top: 0.05vw;
-}
+/* desktop login */
 
 /* desktop footer */
 .desktopFooter {
