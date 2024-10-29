@@ -170,7 +170,7 @@
 .servicesSubpageMenu {
   display: flex;
   flex-direction: column;
-  gap: 2vw;
+  gap: 3vw;
 }
 .servicesSubpageMenu a {
   color: white;
@@ -189,7 +189,7 @@
 }
 .servicesOptions {
   padding-top: 5vw;
-  margin-top: 0px;
+  margin-top: 5vw;
   padding-bottom: 0px;
   margin-bottom: 0px;
   font-family: "Dosis";
@@ -755,6 +755,8 @@
   font-size: 1.25vw;
   margin-top: 0.05vw;
 }
+/* desktop mobile */
+
 /* mobile index */
 .mobileBody {
   background-color: black;
