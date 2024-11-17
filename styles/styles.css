@@ -47,12 +47,13 @@
 
 .mainTitle {
   text-align: right;
-  padding-right: 2%;
-  font-family: "Sixtyfour Convergence";
-  padding-top: 6%;
+  margin-right: 2%;
+  font-family: "Sixtyfour";
+  margin-top: 6%;
   display: flex;
   flex-direction: column;
   gap: 1px;
+  color:white;
 }
 
 .mainTitle h1 {
@@ -199,13 +200,14 @@
 .servicesTitle {
   text-align: right;
   padding-right: 2%;
-  font-family: "Sixtyfour Convergence";
+  font-family: "Sixtyfour";
   padding-top: 6%;
   display: flex;
   flex-direction: column;
   gap: 1px;
   font-size: 3vw;
   padding-bottom: 8vw;
+  color:white;
 }
 
 .servicesSubpageMenu {
@@ -854,11 +856,12 @@
 }
 
 .helpTitle {
-  font-family: "Sixtyfour Convergence";
+  font-family: "Sixtyfour";
   text-align: center;
   size: 100%;
   font-size: 2.5vw;
   margin-top: 5vw;
+  color:white;
 }
 
 .helpTitle h1 {
@@ -866,6 +869,62 @@
 }
 /* desktop login */
 
+/* desktop white box */
+.wBoxMenu {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-top: 1%;
+
+  align-items: center;
+}
+
+.wBoxMenuOptions {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1vw;
+}
+
+.wBoxMenu a {
+  color: white;
+  font-size: 3vw;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  font-family: "Dosis";
+  background: none;
+  margin: 0;
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
+  padding-bottom: 0px;
+  flex-shrink: 5;
+  flex-grow: 5;
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+
+.wBoxLogin {
+  float: left;
+}
+
+.wBoxTitle{
+  font-family:"Sixtyfour";
+  display:flex;
+  flex-direction: column;
+  margin-right: 2%;
+  text-align:right;
+  gap:2vw;
+  margin-top: 2%;
+  color:white;
+}
+.wBoxTitle h1 {
+  font-size:3.8vw;
+  margin-bottom:0;
+}
+.wBoxTitle h2 {
+  font-size:5vw;
+  margin-top:0;
+}
 /* desktop footer */
 .desktopFooter {
   display: flex;
@@ -995,7 +1054,7 @@
 .mobileTitle {
   text-align: right;
   padding-right: 10px;
-  font-family: "Sixtyfour Convergence";
+  font-family: "Sixtyfour";
   padding-top: 100px;
   display: flex;
   flex-direction: column;
